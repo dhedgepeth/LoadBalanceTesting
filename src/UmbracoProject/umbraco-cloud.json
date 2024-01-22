@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "v13 load balancing",
+      "Alias": "v13-load-balancing",
+      "Id": "08dba7e5-18b4-497c-b079-40ce814b10e0",
+      "Workspaces": [
+        {
+          "Id": "d5c06810-d0aa-4a53-8d3b-df49959cd151",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://v13-load-balancing.useast01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
